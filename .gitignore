@@ -1,0 +1,13 @@
+# Never commit real secrets - use Vercel Environment Variables in production
+api/.env
+
+# Vendor/dependency folders
+/vendor
+api/vendor
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# Logs
+api/server.log
